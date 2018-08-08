@@ -1,0 +1,5 @@
+    <ul>
+      <% @post.each do |pst| %>
+      <li><%= "#{pst.name}: #{pst.content}" %></li>
+      <% end %>
+    </ul>
